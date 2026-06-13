@@ -1,0 +1,19 @@
+,Entity ID,Name,Symbol,Wikipedia,Industry,Air Quality,Ecological Impacts,Energy Management,GHG Emissions,Water & Hazardous Materials,Waste & Wastewater Management,Access & Affordability,Customer Privacy,Customer Welfare,Data Security,Employee Engagement,Employee Health & Safety,Human Rights & Community Relations,Labor Practices,Product Quality & Safety,Selling Practices & Product Labeling,Business Ethics,Business Model Resilience,Competitive Behavior,Critical Incidence Risk Management,Management of the Legal & Regulatory Environment,Materials Sourcing & Efficiency,Product Design & Lifecycle Management,Physical Impacts of Climate Change,Supply Chain Management,Systemic Risk Management
+0,31,Anglo American Plc,AAL,Anglo American plc,Mining,,0.487,,,,,0.505,0.477,,,,,0.583,,,,,0.73,0.551,,,,0.493,0.724,,
+1,32,Antofagasta plc,ANTO,Antofagasta plc,Mining,0.355,,0.421,,0.355,,,,,0.505,0.505,,0.357,,,,,,,,,,0.618,,0.355,
+2,5424,Endeavour Mining plc,EDV,Endeavour Mining,Mining,,0.355,,,0.355,0.355,,0.505,0.355,,,0.505,,,,,0.607,,,,,,,,,0.752
+3,64,Fresnillo,FRES,Fresnillo plc,Mining,,,0.355,,0.355,0.355,,0.505,0.505,,,,,,,0.355,0.355,0.784,,,,,,,,
+4,66,Glencore plc,GLEN,Glencore,Mining,,0.688,,,,0.453,,,,,,,0.704,,0.513,,,,0.528,,,0.634,0.526,,0.512,
+5,106,Rio Tinto plc,RIO,Rio Tinto,Mining,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,36,Auto Trader Group plc,AUTO,Autotrader Group,Media,0.536,,0.509,,,,,0.867,,,,,,,0.548,,,0.59,0.5,0.466,0.534,,,,,
+7,701,Informa plc,INF,Informa,Media,,,0.531,,,,0.656,0.684,,,,,,,,,0.411,0.647,,,0.537,0.505,0.572,,,
+8,96,Pearson plc,PSON,Pearson plc,Media,,0.449,,0.505,,,,0.787,,,,0.664,,,,,0.764,,,,0.431,,,0.523,0.421,
+9,103,RELX plc,REL,RELX,Media,,0.47,0.505,,,0.505,0.502,0.873,,,0.465,,,0.775,,,,,,0.441,,,,,,
+10,105,Rightmove plc,RMV,Rightmove,Media,0.355,,0.616,,0.355,,0.355,,0.505,,,0.355,,0.355,,0.505,,,,,,,,,,
+11,130,WPP plc,WPP,,Media,0.505,,0.505,,,,0.44,0.783,,,,,,,0.37,,0.574,,,,,,0.898,,0.476,
+12,48,Bunzl plc,BNZL,Bunzl,Support services,0.505,0.38,,,0.506,,0.428,,,,,,,,0.505,,,0.66,,,,,0.827,,0.708,
+13,54,Compass Group plc,CPG,Compass Group,Support services,,0.539,0.597,0.469,,,,,,,0.516,,0.433,,0.634,,0.712,0.654,,,,,,,,
+14,57,DCC plc,DCC,DCC plc,Support services,0.355,,,,0.355,0.355,,,0.355,,0.355,,,0.505,,,,,,,,,0.788,,,
+15,61,Experian Plc,EXPN,Experian,Support services,0.505,,0.505,0.355,,,,0.759,,,,,,,0.525,,0.56,,,,,,0.676,,,0.659
+16,77,Intertek Group plc,ITRK,Intertek,Support services,0.505,0.474,,,0.505,,,,,,,,,,0.492,,0.538,0.792,,,,,0.676,,0.552,
+17,104,Rentokil Initial Plc,RTO,Rentokil Initial,Support services,0.371,,0.355,,,0.793,,0.983,0.505,,0.505,0.355,,,,,0.36,,,,,,,,,
