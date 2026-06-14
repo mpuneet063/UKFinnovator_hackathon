@@ -1,0 +1,80 @@
+Entity ID,Name,Symbol,Wikipedia,Industry,Air Quality,Ecological Impacts,Energy Management,GHG Emissions,Water & Hazardous Materials,Waste & Wastewater Management,Access & Affordability,Customer Privacy,Customer Welfare,Data Security,Employee Engagement,Employee Health & Safety,Human Rights & Community Relations,Labor Practices,Product Quality & Safety,Selling Practices & Product Labeling,Business Ethics,Business Model Resilience,Competitive Behavior,Critical Incidence Risk Management,Management of the Legal & Regulatory Environment,Materials Sourcing & Efficiency,Product Design & Lifecycle Management,Physical Impacts of Climate Change,Supply Chain Management,Systemic Risk Management
+29,3i Group Plc,III,3i,Financial services,,,0.355,0.355,0.355,,0.355,0.505,,0.355,0.505,,,,,0.355,,,,,,,,,,
+30,Admiral Group,ADM,Admiral Group,Insurance,0.355,,0.355,,,0.397,,,0.355,,,,,,,0.505,0.802,0.953,,,,,,,,
+1202,Airtel Africa plc,AAF,Airtel Africa,Telecommunications services,,,0.409,,,,0.645,0.492,,,,0.505,,,,,0.699,,,0.727,,,,0.456,0.61,
+31,Anglo American Plc,AAL,Anglo American plc,Mining,,0.487,,,,,0.505,0.477,,,,,0.583,,,,,0.73,0.551,,,,0.493,0.724,,
+32,Antofagasta plc,ANTO,Antofagasta plc,Mining,0.355,,0.421,,0.355,,,,,0.505,0.505,,0.357,,,,,,,,,,0.618,,0.355,
+263,Associated British Foods plc,ABF,Associated British Foods,Food & tobacco,0.355,,0.355,0.505,,,0.606,,,0.505,,,,,0.523,,,0.948,,,,,0.715,,,
+35,AstraZeneca plc,AZN,AstraZeneca,Pharmaceuticals & biotechnology,,,,,,,,,,,,,,,,,,,,,,,,,,
+36,Auto Trader Group plc,AUTO,Autotrader Group,Media,0.536,,0.509,,,,,0.867,,,,,,,0.548,,,0.59,0.5,0.466,0.534,,,,,
+39,Aviva Plc,AV,Aviva,Life insurance,,,0.594,,,,0.497,0.477,,,,,0.505,,0.644,,,,,0.576,,,0.659,,0.591,
+1199,Babcock International Group,BAB,Babcock International,Aerospace & defence,0.505,0.577,,0.706,,,,0.637,,,,,,,0.505,,0.9,,,0.355,,0.355,,,,
+40,BAE Systems plc,BA.,BAE Systems,Aerospace & defence,,0.493,,,,,,0.582,,,,0.568,0.66,,,,0.536,,,0.51,,,,,0.666,0.533
+41,Barclays plc,BARC,Barclays,Banks,,0.651,,,,,0.583,0.67,,,,,,,,,0.504,0.631,,,0.583,,0.526,,,0.405
+42,Barratt Redrow Plc,BTRW,Barratt Redrow,Household goods & home construction,,,,,,0.463,0.505,,,,,,0.509,,0.505,,0.832,0.849,,,0.464,,,0.414,,
+368,Beazley plc,BEZ,Beazley,Insurance,0.355,,0.355,,,0.355,0.505,0.453,,,,,0.505,,0.356,,,,,,,,,0.594,,
+43,Berkeley Group Holdings plc,BKG,Berkeley Group Holdings,Household goods & home construction,,,0.355,0.355,,0.401,,,,0.355,,0.505,,0.505,,,0.444,,,,,,0.569,,,
+1,BP Plc,BP,BP,Oil & gas producers,,,,0.581,,,,,,,,,0.558,,0.59,,0.515,,,,0.428,,,0.759,0.518,0.6
+45,British American Tobacco plc,BATS,British American Tobacco,Tobacco,,0.543,0.559,0.455,,,,0.555,0.586,,,,,,,,,0.741,0.505,,0.609,,,,,
+47,BT Group plc,BT.A,BT Group,Telecommunications services,,,0.553,0.505,,,0.601,0.607,,,,,,,,,0.559,,,,,,0.717,0.425,0.584,
+48,Bunzl plc,BNZL,Bunzl,Support services,0.505,0.38,,,0.506,,0.428,,,,,,,,0.505,,,0.66,,,,,0.827,,0.708,
+49,Burberry Group plc,BRBY,Burberry Group,Personal goods,,0.678,,,0.54,,,,,,,,,,0.426,,0.509,0.573,0.387,,0.577,,0.847,,,
+51,Centrica plc,CNA,Centrica,Multiline utilities,,,0.708,0.606,,0.561,,0.534,,,,,,,,,0.476,,0.729,,,,,,0.57,0.355
+53,Coca-Cola HBC AG,CCH,Coca-Cola HBC,Beverages,0.355,0.389,,,,0.355,0.735,,,,0.505,,,,0.505,,0.355,0.794,,,,,,,,
+54,Compass Group plc,CPG,Compass Group,Support services,,0.539,0.597,0.469,,,,,,,0.516,,0.433,,0.634,,0.712,0.654,,,,,,,,
+57,DCC plc,DCC,DCC plc,Support services,0.355,,,,0.355,0.355,,,0.355,,0.355,,,0.505,,,,,,,,,0.788,,,
+58,Diageo plc,DGE,Diageo,Beverages,,,0.574,,0.567,,,0.557,,,,,0.451,,,,,,,0.389,,,,0.534,0.696,0.718
+59,easyJet plc,EZJ,,Travel & leisure,,0.642,,,,0.534,,0.608,,,,,,,,,0.729,,0.538,,,0.443,0.557,,,0.505
+5424,Endeavour Mining plc,EDV,Endeavour Mining,Mining,,0.355,,,0.355,0.355,,0.505,0.355,,,0.505,,,,,0.607,,,,,,,,,0.752
+67,Entain plc,ENT,Entain,Travel & leisure,,0.863,,,,0.505,,0.65,,,,,0.558,,,,,,0.437,0.472,0.529,,,,0.518,
+61,Experian Plc,EXPN,Experian,Support services,0.505,,0.505,0.355,,,,0.759,,,,,,,0.525,,0.56,,,,,,0.676,,,0.659
+64,Fresnillo,FRES,Fresnillo plc,Mining,,,0.355,,0.355,0.355,,0.505,0.505,,,,,,,0.355,0.355,0.784,,,,,,,,
+288,Games Workshop Group,GAW,Games Workshop,Leisure Goods,,,,,,,,,,,,,,,,,,,,,,,,,,
+66,Glencore plc,GLEN,Glencore,Mining,,0.688,,,,0.453,,,,,,,0.704,,0.513,,,,0.528,,,0.634,0.526,,0.512,
+65,GSK plc,GSK,GSK plc,Pharmaceuticals & biotechnology,,0.661,,,,,,,,,,,0.622,0.52,0.475,,0.799,,0.522,0.51,,,,,0.443,
+5425,Haleon plc,HLN,Haleon,Pharmaceuticals & biotechnology,,,0.538,,0.676,,0.499,0.611,,,,,,,0.505,,,0.603,,0.593,,,,,0.532,
+68,Halma plc,HLMA,Halma plc,Electronic equipment & parts,,,,0.355,0.355,0.355,,,,,0.505,,,,,0.505,,0.647,,,,,,,0.428,
+248,Howden Joinery Group Plc,HWDN,Howdens Joinery,Homebuilding & construction supplies,,,0.355,0.84,0.355,,0.505,,,0.505,,,,,,,0.404,0.355,,,,,0.791,,,
+72,HSBC Holdings plc,HSBA,HSBC,Banks,,,,0.54,,,0.541,0.83,,,,,,,0.448,,,0.808,,0.619,0.453,,0.51,,,
+73,Imperial Brands Group,IMB,Imperial Brands,Tobacco,,,0.355,0.355,0.355,,,,,0.505,,,,,0.505,,0.867,,,,0.814,,,0.441,,
+701,Informa plc,INF,Informa,Media,,,0.531,,,,0.656,0.684,,,,,,,,,0.411,0.647,,,0.537,0.505,0.572,,,
+75,InterContinental Hotels Group plc,IHG,IHG Hotels & Resorts,Travel & leisure,,,,0.552,,0.466,,,,,0.466,,,0.544,0.649,,,,,,,,,0.567,0.738,0.571
+78,International Consolidated Airlines Group SA,IAG,International Airlines Group,Travel & leisure,,0.497,,0.463,,,0.764,,0.505,,,,,,,,,0.634,0.49,,,,0.662,0.536,,
+77,Intertek Group plc,ITRK,Intertek,Support services,0.505,0.474,,,0.505,,,,,,,,,,0.492,,0.538,0.792,,,,,0.676,,0.552,
+80,JD Sports Fashion plc,JD,JD Sports,General retailers,,0.513,,,,0.505,,,,,,,0.545,,0.582,,0.725,,,,,0.634,,,0.652,0.396
+83,Kingfisher,KGF,Kingfisher plc,Retailers,0.505,0.61,,,,0.442,0.444,0.69,,,,,,,,,0.564,0.623,,,,0.662,,,,
+85,Legal & General Group plc,LGEN,Legal & General,Life insurance,0.355,,0.606,0.355,,,0.505,0.545,,0.505,,,,,,,,0.881,,,,,0.779,,,
+86,Lloyds Banking Group plc,LLOY,Lloyds Banking Group,Banks,,0.533,,,,,,,,,,,0.611,,0.401,,0.463,0.719,0.744,,0.55,,0.516,,,
+88,M&G plc,MNG,M&G,Financial services,0.355,,,,0.355,0.355,,,0.505,,0.355,,,0.505,,,0.671,,,,,,0.735,,,
+220,Marks & Spencer Group plc,MKS,Marks & Spencer,Food & drug retailing,,,,0.504,,0.543,0.585,0.537,,,,,0.493,,,,0.703,0.612,,,,,,,,0.577
+90,Melrose Industries plc,MRO,Melrose Industries,Aerospace & defence,0.505,0.597,0.78,,,,,0.744,,,,0.505,,,0.63,,,,,,,,,0.36,,0.388
+91,Mondi plc,MNDI,Mondi,Containers & packaging,0.505,,0.58,0.634,,,,0.537,,,,,,,,,0.71,0.675,,,,,,0.445,,0.458
+92,National Grid,NG,National Grid plc,Multiline utilities,0.557,,0.511,0.648,,,,,,,,,,,0.523,,0.659,,,,,0.532,,0.55,0.574,
+151,NatWest Group plc,NWG,NatWest Group,Banks,,,,,,,,0.666,,,,,0.481,0.517,0.458,,,0.677,,0.552,,0.535,0.669,,,
+93,Next plc,NXT,Next plc,General retailers,,,0.544,,0.584,,0.586,,0.578,,,,,0.508,,,0.613,,,,,0.684,,,,0.457
+96,Pearson plc,PSON,Pearson plc,Media,,0.449,,0.505,,,,0.787,,,,0.664,,,,,0.764,,,,0.431,,,0.523,0.421,
+98,Persimmon plc,PSN,Persimmon,Household goods & home construction,,,0.787,0.355,0.355,,0.505,0.421,,,,,,,0.505,,,,0.374,,,,0.398,,,
+99,Phoenix Group Holdings Plc,PHNX,Standard Life,Life insurance,,,,,,,,,,,0.503,,0.595,,0.58,,0.579,0.723,,,,,0.658,0.456,0.462,
+101,Prudential plc,PRU,Prudential plc,Life insurance,,,0.505,,0.505,,,0.808,,,,,0.46,,,,0.633,,,0.615,,,,0.586,0.437,
+102,Reckitt Benckiser Group Plc,RKT,Reckitt,Household goods & home construction,,0.801,,,0.585,,0.483,,,,0.404,,,,,,0.591,0.7,,,,,,0.57,0.403,
+103,RELX plc,REL,RELX,Media,,0.47,0.505,,,0.505,0.502,0.873,,,0.465,,,0.775,,,,,,0.441,,,,,,
+104,Rentokil Initial Plc,RTO,Rentokil Initial,Support services,0.371,,0.355,,,0.793,,0.983,0.505,,0.505,0.355,,,,,0.36,,,,,,,,,
+105,Rightmove plc,RMV,Rightmove,Media,0.355,,0.616,,0.355,,0.355,,0.505,,,0.355,,0.355,,0.505,,,,,,,,,,
+106,Rio Tinto plc,RIO,Rio Tinto,Mining,,,,,,,,,,,,,,,,,,,,,,,,,,
+107,Rolls Royce Holdings Plc,RR,Rolls-Royce Holdings,Aerospace & defence,0.574,0.576,,,,0.505,,,,,,,,,0.505,,,0.847,,,,0.439,,0.465,0.63,
+110,Sage Group plc,SGE,Sage Group,Software & computer services,0.505,,0.355,,,0.355,0.383,,0.505,,,,0.549,,,,,0.767,,0.618,,,,,,
+1181,Sainsbury (J) plc,SBRY,Sainsbury's,Food & drug retailing,,,,0.485,0.713,0.582,0.506,0.517,,,,,,,,,,,0.718,,0.517,,0.495,,,
+111,Schroders plc,SDR,Schroders,Financial services,,,,,,,,,,,,,,,,,,,,,,,,,,
+113,Segro Plc,SGRO,Segro,Real estate investment trusts,0.401,,0.355,,,0.355,,,0.355,,,0.505,0.355,,,,0.505,0.669,,,,,,,,
+114,Severn Trent Plc,SVT,Severn Trent,Multiline utilities,0.355,,,,,,,0.505,,,,,,,0.604,,,0.748,0.699,0.528,,,,,,0.549
+2471,Shell plc,SHEL,Shell plc,Oil & gas producers,,0.645,0.587,0.582,,,,,,,,,,0.511,0.543,,,,,,,,0.582,,0.544,0.556
+115,Smith & Nephew plc,SN,Smith & Nephew,Health care equipment & supplies,0.355,,,0.355,,0.355,,0.58,,0.505,,,,,,,0.505,0.965,,,,,0.905,,,
+1186,SSE plc,SSE,SSE plc,Electrical utilities & independent power producers,0.56,,,,,0.523,,0.64,,,,,0.499,,,,0.494,,,,,0.622,,0.679,,0.523
+788,St James's Place Plc,STJ,St. James's Place,Financial services,,0.355,0.355,,,0.355,0.505,0.378,,,0.505,,0.41,,,,0.355,,,,,,,,,
+122,Standard Chartered plc,STAN,Standard Chartered,Banks,0.505,,0.38,,0.505,,,0.622,,,,,,,,,,0.68,,,0.573,,,0.669,0.618,
+24,Tesco plc,TSCO,Tesco,Food & drug retailing,0.54,0.559,,0.49,,,,,0.495,,,,0.435,0.593,,,,0.798,,,,,0.646,,,
+126,Unilever plc,ULVR,Unilever,Personal goods,,,,0.522,0.535,,,,0.447,,,,0.566,,,,,0.678,,0.51,0.556,,,0.741,,
+127,United Utilities Group Plc,UU.,United Utilities,Multiline utilities,,0.657,,0.519,,,,,,,,,,,0.401,,0.518,0.697,,,0.501,,0.721,,0.533,
+128,Vodafone Group plc,VOD,Vodafone Group,Mobile telecommunications,,,,0.585,,,0.584,0.7,,,,,,,0.508,,,0.61,,,,0.442,0.606,,,0.517
+129,Whitbread plc,WTB,Whitbread,Retail hospitality,0.355,,0.384,0.356,,,0.505,,,,,,,0.355,,,0.505,0.754,,,,,0.729,,,
+130,WPP plc,WPP,,Media,0.505,,0.505,,,,0.44,0.783,,,,,,,0.37,,0.574,,,,,,0.898,,0.476,

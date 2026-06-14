@@ -1,0 +1,478 @@
+[
+  {
+    "ticker": "III.L",
+    "status": "error",
+    "error": "argument of type 'NoneType' is not iterable",
+    "company": "3i Group Plc",
+    "symbol": "III"
+  },
+  {
+    "ticker": "ADM.L",
+    "status": "error",
+    "error": "argument of type 'NoneType' is not iterable",
+    "company": "Admiral Group",
+    "symbol": "ADM"
+  },
+  {
+    "ticker": "AAF.L",
+    "status": "no_data",
+    "company": "Airtel Africa plc",
+    "symbol": "AAF"
+  },
+  {
+    "ticker": "AAL.L",
+    "status": "no_data",
+    "company": "Anglo American Plc",
+    "symbol": "AAL"
+  },
+  {
+    "ticker": "ANTO.L",
+    "status": "no_data",
+    "company": "Antofagasta plc",
+    "symbol": "ANTO"
+  },
+  {
+    "ticker": "ABF.L",
+    "status": "no_data",
+    "company": "Associated British Foods plc",
+    "symbol": "ABF"
+  },
+  {
+    "ticker": "AZN.L",
+    "status": "no_data",
+    "company": "AstraZeneca plc",
+    "symbol": "AZN"
+  },
+  {
+    "ticker": "AUTO.L",
+    "status": "no_data",
+    "company": "Auto Trader Group plc",
+    "symbol": "AUTO"
+  },
+  {
+    "ticker": "AV.L",
+    "status": "no_data",
+    "company": "Aviva Plc",
+    "symbol": "AV"
+  },
+  {
+    "ticker": "BAB.L",
+    "status": "no_data",
+    "company": "Babcock International Group",
+    "symbol": "BAB"
+  },
+  {
+    "ticker": "BA..L",
+    "status": "no_data",
+    "company": "BAE Systems plc",
+    "symbol": "BA."
+  },
+  {
+    "ticker": "BARC.L",
+    "status": "no_data",
+    "company": "Barclays plc",
+    "symbol": "BARC"
+  },
+  {
+    "ticker": "BTRW.L",
+    "status": "no_data",
+    "company": "Barratt Redrow Plc",
+    "symbol": "BTRW"
+  },
+  {
+    "ticker": "BEZ.L",
+    "status": "no_data",
+    "company": "Beazley plc",
+    "symbol": "BEZ"
+  },
+  {
+    "ticker": "BKG.L",
+    "status": "no_data",
+    "company": "Berkeley Group Holdings plc",
+    "symbol": "BKG"
+  },
+  {
+    "ticker": "BP.L",
+    "status": "no_data",
+    "company": "BP Plc",
+    "symbol": "BP"
+  },
+  {
+    "ticker": "BATS.L",
+    "status": "no_data",
+    "company": "British American Tobacco plc",
+    "symbol": "BATS"
+  },
+  {
+    "ticker": "BT.A.L",
+    "status": "no_data",
+    "company": "BT Group plc",
+    "symbol": "BT.A"
+  },
+  {
+    "ticker": "BNZL.L",
+    "status": "no_data",
+    "company": "Bunzl plc",
+    "symbol": "BNZL"
+  },
+  {
+    "ticker": "BRBY.L",
+    "status": "no_data",
+    "company": "Burberry Group plc",
+    "symbol": "BRBY"
+  },
+  {
+    "ticker": "CNA.L",
+    "status": "no_data",
+    "company": "Centrica plc",
+    "symbol": "CNA"
+  },
+  {
+    "ticker": "CCH.L",
+    "status": "no_data",
+    "company": "Coca-Cola HBC AG",
+    "symbol": "CCH"
+  },
+  {
+    "ticker": "CPG.L",
+    "status": "no_data",
+    "company": "Compass Group plc",
+    "symbol": "CPG"
+  },
+  {
+    "ticker": "DCC.L",
+    "status": "no_data",
+    "company": "DCC plc",
+    "symbol": "DCC"
+  },
+  {
+    "ticker": "DGE.L",
+    "status": "no_data",
+    "company": "Diageo plc",
+    "symbol": "DGE"
+  },
+  {
+    "ticker": "EZJ.L",
+    "status": "no_data",
+    "company": "easyJet plc",
+    "symbol": "EZJ"
+  },
+  {
+    "ticker": "EDV.L",
+    "status": "no_data",
+    "company": "Endeavour Mining plc",
+    "symbol": "EDV"
+  },
+  {
+    "ticker": "ENT.L",
+    "status": "no_data",
+    "company": "Entain plc",
+    "symbol": "ENT"
+  },
+  {
+    "ticker": "EXPN.L",
+    "status": "no_data",
+    "company": "Experian Plc",
+    "symbol": "EXPN"
+  },
+  {
+    "ticker": "FRES.L",
+    "status": "no_data",
+    "company": "Fresnillo",
+    "symbol": "FRES"
+  },
+  {
+    "ticker": "GAW.L",
+    "status": "no_data",
+    "company": "Games Workshop Group",
+    "symbol": "GAW"
+  },
+  {
+    "ticker": "GLEN.L",
+    "status": "no_data",
+    "company": "Glencore plc",
+    "symbol": "GLEN"
+  },
+  {
+    "ticker": "GSK.L",
+    "status": "no_data",
+    "company": "GSK plc",
+    "symbol": "GSK"
+  },
+  {
+    "ticker": "HLN.L",
+    "status": "no_data",
+    "company": "Haleon plc",
+    "symbol": "HLN"
+  },
+  {
+    "ticker": "HLMA.L",
+    "status": "no_data",
+    "company": "Halma plc",
+    "symbol": "HLMA"
+  },
+  {
+    "ticker": "HWDN.L",
+    "status": "no_data",
+    "company": "Howden Joinery Group Plc",
+    "symbol": "HWDN"
+  },
+  {
+    "ticker": "HSBA.L",
+    "status": "no_data",
+    "company": "HSBC Holdings plc",
+    "symbol": "HSBA"
+  },
+  {
+    "ticker": "IMB.L",
+    "status": "no_data",
+    "company": "Imperial Brands Group",
+    "symbol": "IMB"
+  },
+  {
+    "ticker": "INF.L",
+    "status": "no_data",
+    "company": "Informa plc",
+    "symbol": "INF"
+  },
+  {
+    "ticker": "IHG.L",
+    "status": "no_data",
+    "company": "InterContinental Hotels Group plc",
+    "symbol": "IHG"
+  },
+  {
+    "ticker": "IAG.L",
+    "status": "no_data",
+    "company": "International Consolidated Airlines Group SA",
+    "symbol": "IAG"
+  },
+  {
+    "ticker": "ITRK.L",
+    "status": "no_data",
+    "company": "Intertek Group plc",
+    "symbol": "ITRK"
+  },
+  {
+    "ticker": "JD.L",
+    "status": "no_data",
+    "company": "JD Sports Fashion plc",
+    "symbol": "JD"
+  },
+  {
+    "ticker": "KGF.L",
+    "status": "no_data",
+    "company": "Kingfisher",
+    "symbol": "KGF"
+  },
+  {
+    "ticker": "LGEN.L",
+    "status": "no_data",
+    "company": "Legal & General Group plc",
+    "symbol": "LGEN"
+  },
+  {
+    "ticker": "LLOY.L",
+    "status": "no_data",
+    "company": "Lloyds Banking Group plc",
+    "symbol": "LLOY"
+  },
+  {
+    "ticker": "MNG.L",
+    "status": "no_data",
+    "company": "M&G plc",
+    "symbol": "MNG"
+  },
+  {
+    "ticker": "MKS.L",
+    "status": "no_data",
+    "company": "Marks & Spencer Group plc",
+    "symbol": "MKS"
+  },
+  {
+    "ticker": "MRO.L",
+    "status": "no_data",
+    "company": "Melrose Industries plc",
+    "symbol": "MRO"
+  },
+  {
+    "ticker": "MNDI.L",
+    "status": "no_data",
+    "company": "Mondi plc",
+    "symbol": "MNDI"
+  },
+  {
+    "ticker": "NG.L",
+    "status": "no_data",
+    "company": "National Grid",
+    "symbol": "NG"
+  },
+  {
+    "ticker": "NWG.L",
+    "status": "no_data",
+    "company": "NatWest Group plc",
+    "symbol": "NWG"
+  },
+  {
+    "ticker": "NXT.L",
+    "status": "no_data",
+    "company": "Next plc",
+    "symbol": "NXT"
+  },
+  {
+    "ticker": "PSON.L",
+    "status": "no_data",
+    "company": "Pearson plc",
+    "symbol": "PSON"
+  },
+  {
+    "ticker": "PSN.L",
+    "status": "no_data",
+    "company": "Persimmon plc",
+    "symbol": "PSN"
+  },
+  {
+    "ticker": "PHNX.L",
+    "status": "no_data",
+    "company": "Phoenix Group Holdings Plc",
+    "symbol": "PHNX"
+  },
+  {
+    "ticker": "PRU.L",
+    "status": "no_data",
+    "company": "Prudential plc",
+    "symbol": "PRU"
+  },
+  {
+    "ticker": "RKT.L",
+    "status": "no_data",
+    "company": "Reckitt Benckiser Group Plc",
+    "symbol": "RKT"
+  },
+  {
+    "ticker": "REL.L",
+    "status": "no_data",
+    "company": "RELX plc",
+    "symbol": "REL"
+  },
+  {
+    "ticker": "RTO.L",
+    "status": "no_data",
+    "company": "Rentokil Initial Plc",
+    "symbol": "RTO"
+  },
+  {
+    "ticker": "RMV.L",
+    "status": "no_data",
+    "company": "Rightmove plc",
+    "symbol": "RMV"
+  },
+  {
+    "ticker": "RIO.L",
+    "status": "no_data",
+    "company": "Rio Tinto plc",
+    "symbol": "RIO"
+  },
+  {
+    "ticker": "RR.L",
+    "status": "no_data",
+    "company": "Rolls Royce Holdings Plc",
+    "symbol": "RR"
+  },
+  {
+    "ticker": "SGE.L",
+    "status": "no_data",
+    "company": "Sage Group plc",
+    "symbol": "SGE"
+  },
+  {
+    "ticker": "SBRY.L",
+    "status": "no_data",
+    "company": "Sainsbury (J) plc",
+    "symbol": "SBRY"
+  },
+  {
+    "ticker": "SDR.L",
+    "status": "no_data",
+    "company": "Schroders plc",
+    "symbol": "SDR"
+  },
+  {
+    "ticker": "SGRO.L",
+    "status": "no_data",
+    "company": "Segro Plc",
+    "symbol": "SGRO"
+  },
+  {
+    "ticker": "SVT.L",
+    "status": "no_data",
+    "company": "Severn Trent Plc",
+    "symbol": "SVT"
+  },
+  {
+    "ticker": "SHEL.L",
+    "status": "no_data",
+    "company": "Shell plc",
+    "symbol": "SHEL"
+  },
+  {
+    "ticker": "SN.L",
+    "status": "no_data",
+    "company": "Smith & Nephew plc",
+    "symbol": "SN"
+  },
+  {
+    "ticker": "SSE.L",
+    "status": "no_data",
+    "company": "SSE plc",
+    "symbol": "SSE"
+  },
+  {
+    "ticker": "STJ.L",
+    "status": "no_data",
+    "company": "St James's Place Plc",
+    "symbol": "STJ"
+  },
+  {
+    "ticker": "STAN.L",
+    "status": "no_data",
+    "company": "Standard Chartered plc",
+    "symbol": "STAN"
+  },
+  {
+    "ticker": "TSCO.L",
+    "status": "no_data",
+    "company": "Tesco plc",
+    "symbol": "TSCO"
+  },
+  {
+    "ticker": "ULVR.L",
+    "status": "no_data",
+    "company": "Unilever plc",
+    "symbol": "ULVR"
+  },
+  {
+    "ticker": "UU..L",
+    "status": "no_data",
+    "company": "United Utilities Group Plc",
+    "symbol": "UU."
+  },
+  {
+    "ticker": "VOD.L",
+    "status": "no_data",
+    "company": "Vodafone Group plc",
+    "symbol": "VOD"
+  },
+  {
+    "ticker": "WTB.L",
+    "status": "no_data",
+    "company": "Whitbread plc",
+    "symbol": "WTB"
+  },
+  {
+    "ticker": "WPP.L",
+    "status": "no_data",
+    "company": "WPP plc",
+    "symbol": "WPP"
+  }
+]

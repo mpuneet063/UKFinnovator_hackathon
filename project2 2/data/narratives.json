@@ -1,0 +1,59 @@
+{
+  "_readme": "This is a small, hand-written DEMONSTRATION of the output 03_generate_narratives.py produces, following exactly the same grounding rules given to the LLM in that script's system prompt: only numbers present in the input are stated, evidence is attributed to its source, and SHAP near-zero values are reported as such rather than dramatized. Run 03_generate_narratives.py with ANTHROPIC_API_KEY set to generate this for all qualifying (company, factor) pairs.",
+  "narratives": [
+    {
+      "company": "Glencore plc",
+      "sector": "Mining",
+      "factor": "Human Rights & Community Relations",
+      "materiality_weight": 0.704,
+      "peer_avg": 0.548,
+      "gap": 0.156,
+      "shap_value": 0.05616,
+      "shap_rank": 1,
+      "auditor_view": "Glencore's financial materiality weight for Human Rights & Community Relations is 0.704, which is 0.156 above the sector peer average of 0.548 \u2014 the largest gap of any of its material factors. This is also the single largest contributor to the model's prediction for this company. According to ABP's 2024 divestment disclosure, the pension fund cited unresolved human rights risks including child labour concerns in DRC cobalt supply chains as its reason for exiting its position, which an auditor would treat as a live disclosure and assurance issue given how far this factor's materiality sits above peers.",
+      "corporate_view": "With a materiality weight of 0.704 against a sector average of 0.548, this factor is unusually material for Glencore relative to peers, and the model's attribution agrees it is the most influential factor in its profile. Glencore's own 2024 sustainability report states it recorded no incidents resulting in severe human rights impacts, but this sits alongside ABP's decision to divest over the same issue \u2014 suggesting a gap between the company's internal assessment and external stakeholder assessment that corporate strategy would need to address directly.",
+      "investor_view": "The +0.156 gap on this factor, combined with its #1 rank in the model's attribution (SHAP contribution +0.05616), marks this as the most distinctive element of Glencore's materiality profile relative to its mining sector peers. ABP's ~EUR 57m divestment in 2024, explicitly citing this issue, is a concrete instance of an investor acting on this exposure \u2014 an indication that this materiality gap is not purely theoretical from a capital-allocation perspective.",
+      "key_uncertainties": [
+        "No real share price / volatility data was available for this run \u2014 the model's target was a materiality-based distinctiveness index, not a financial outcome, so the SHAP ranking shows relative importance within Glencore's profile but not a confirmed financial effect.",
+        "Only one evidence source (ABP divestment) plus Glencore's own report were reviewed; a fuller evidence set might include more recent (2025) developments.",
+        "The peer group average (0.485) is based on 5 other Mining-sector companies in the dataset, several with their own materiality mapping gaps."
+      ]
+    },
+    {
+      "company": "Glencore plc",
+      "sector": "Mining",
+      "factor": "Ecological Impacts",
+      "materiality_weight": 0.688,
+      "peer_avg": 0.51,
+      "gap": 0.178,
+      "shap_value": 0.0556,
+      "shap_rank": 2,
+      "auditor_view": "Glencore's materiality weight for Ecological Impacts is 0.688, 0.178 above the sector peer average of 0.510 \u2014 the second-largest gap in its profile, and the model's second-ranked contributor (SHAP +0.0556). Reported figures of over 433 million tonnes of CO2-equivalent emissions annually and roughly 2.31 billion tonnes of waste generated, with only around 1% historically managed sustainably, would be material disclosures for an auditor to scrutinise given how far above peer-typical this factor sits for Glencore specifically.",
+      "corporate_view": "This factor's above-peer materiality (gap +0.178) combined with the model's second-highest attribution suggests ecological impact management is a distinctive strategic exposure for Glencore relative to other miners in the dataset. The reported rehabilitation figures \u2014 around 37,000 of roughly 2 million disturbed hectares restored as of 2021 \u2014 indicate this is an area where stated ambition and reported progress diverge, which corporate strategy would need to reconcile given the factor's outsized materiality.",
+      "investor_view": "With a +0.178 materiality gap and the model's second-largest SHAP contribution (+0.0556), Ecological Impacts is, alongside Human Rights & Community Relations, one of the two factors that most distinguish Glencore's profile from its Mining-sector peers. The scale figures reported (433 million tonnes CO2e, ~1% of 2.31 billion tonnes of waste sustainably managed) give a concrete sense of the exposure an investor would be assessing relative to peers with lower materiality weights on this factor.",
+      "key_uncertainties": [
+        "As above, the model's target is a materiality-distinctiveness index, not a financial metric \u2014 real volatility/return data would let this be reframed as a financial materiality finding rather than a profile-distinctiveness one.",
+        "The waste/rehabilitation figures cited are from a single third-party source (2021 data point) \u2014 more recent company-reported figures would strengthen this.",
+        "No information was retrieved on whether Glencore's stated 2024-2026 Climate Action Transition Plan addresses this specific factor's gap."
+      ]
+    },
+    {
+      "company": "Anglo American Plc",
+      "sector": "Mining",
+      "factor": "Business Model Resilience",
+      "materiality_weight": 0.73,
+      "peer_avg": 0.757,
+      "gap": -0.027,
+      "shap_value": 0.0,
+      "shap_rank": "n/a",
+      "auditor_view": "Anglo American's materiality weight for Business Model Resilience is 0.730, slightly below the sector peer average of 0.757 (gap -0.027) \u2014 within the range the model treats as sector-typical, with a SHAP contribution of approximately 0.0 for this company. From an auditor's perspective this factor sits close to peer norms, so it is not a standout disclosure risk on materiality grounds alone, though the underlying portfolio transformation (sale of steelmaking coal to Peabody, planned Anglo American Platinum demerger, De Beers divestment) reported in the company's own annual reporting would still warrant review on its own merits.",
+      "corporate_view": "With a near-zero gap to the sector peer average (-0.027) and a SHAP contribution of approximately 0.0, this factor's materiality for Anglo American is essentially sector-typical according to the model \u2014 it is not flagged as a distinctive element of the company's profile. That said, Anglo American's own reporting frames an active, large-scale portfolio transformation explicitly in terms of building resilience, and MSCI rates the company 'AA' (Leader), which corporate strategy may wish to communicate even though the materiality-gap signal alone does not single this factor out.",
+      "investor_view": "The gap on this factor (-0.027) and the model's SHAP contribution of approximately 0.0 indicate this is not one of the factors that distinguishes Anglo American from its Mining-sector peers in this dataset. An investor relying on this model alone would not flag Business Model Resilience as a standout area for Anglo American \u2014 though the company's MSCI 'AA' rating and ongoing portfolio transformation (per its own annual reporting) are additional context outside what this model captures.",
+      "key_uncertainties": [
+        "This factor's near-zero SHAP value means the model finds nothing distinctive here \u2014 the qualitative evidence (portfolio transformation, MSCI rating) was retrieved independently and is not reflected in the materiality-gap-based model at all, illustrating a case where evidence and model attribution diverge.",
+        "Real financial data (e.g. share price reaction to the announced portfolio changes) would be a more direct way to assess whether this factor matters financially for Anglo American right now.",
+        "Only two evidence sources were reviewed, both from Anglo American's own channels or a ratings aggregator \u2014 independent commentary was not checked."
+      ]
+    }
+  ]
+}

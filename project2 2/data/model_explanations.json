@@ -1,0 +1,4610 @@
+{
+  "target_type": "distinctiveness_index",
+  "in_sample_r2": 0.9694,
+  "n_training_rows": 75,
+  "feature_names": [
+    "Air Quality",
+    "Ecological Impacts",
+    "Energy Management",
+    "GHG Emissions",
+    "Water & Hazardous Materials",
+    "Waste & Wastewater Management",
+    "Access & Affordability",
+    "Customer Privacy",
+    "Customer Welfare",
+    "Data Security",
+    "Employee Engagement",
+    "Employee Health & Safety",
+    "Human Rights & Community Relations",
+    "Labor Practices",
+    "Product Quality & Safety",
+    "Selling Practices & Product Labeling",
+    "Business Ethics",
+    "Business Model Resilience",
+    "Competitive Behavior",
+    "Critical Incidence Risk Management",
+    "Management of the Legal & Regulatory Environment",
+    "Materials Sourcing & Efficiency",
+    "Product Design & Lifecycle Management",
+    "Physical Impacts of Climate Change",
+    "Supply Chain Management",
+    "Systemic Risk Management"
+  ],
+  "explanations": [
+    {
+      "company": "Babcock International Group",
+      "symbol": "BAB",
+      "sector": "Aerospace & defence",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.24494,
+      "actual_value": 0.2589,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.9,
+          "shap_value": 0.03951
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01365
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01204
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.012
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00956
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.706,
+          "shap_value": 0.00685
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0054
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00341
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00332
+        },
+        {
+          "factor": "Critical Incidence Risk Management",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00317
+        }
+      ]
+    },
+    {
+      "company": "BAE Systems plc",
+      "symbol": "BA.",
+      "sector": "Aerospace & defence",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.26432,
+      "actual_value": 0.2818,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.66,
+          "shap_value": 0.0587
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.568,
+          "shap_value": 0.03264
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.666,
+          "shap_value": 0.01574
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.533,
+          "shap_value": -0.01027
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.536,
+          "shap_value": 0.0095
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.582,
+          "shap_value": -0.00934
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00709
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.493,
+          "shap_value": 0.006
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0058
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00563
+        }
+      ]
+    },
+    {
+      "company": "Melrose Industries plc",
+      "symbol": "MRO",
+      "sector": "Aerospace & defence",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.22203,
+      "actual_value": 0.2147,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.78,
+          "shap_value": 0.04392
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.744,
+          "shap_value": 0.031
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.63,
+          "shap_value": 0.01522
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.388,
+          "shap_value": -0.01309
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.0108
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00782
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.597,
+          "shap_value": -0.00767
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00759
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00672
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00643
+        }
+      ]
+    },
+    {
+      "company": "Rolls Royce Holdings Plc",
+      "symbol": "RR",
+      "sector": "Aerospace & defence",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.12326,
+      "actual_value": 0.1107,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01606
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0131
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.574,
+          "shap_value": -0.0124
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0115
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00862
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.63,
+          "shap_value": 0.00858
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00848
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.439,
+          "shap_value": 0.00644
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00635
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00626
+        }
+      ]
+    },
+    {
+      "company": "Barclays plc",
+      "symbol": "BARC",
+      "sector": "Banks",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.16532,
+      "actual_value": 0.1646,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.583,
+          "shap_value": 0.02672
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.67,
+          "shap_value": 0.02211
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.504,
+          "shap_value": -0.01809
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.405,
+          "shap_value": -0.01531
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.651,
+          "shap_value": -0.01382
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.526,
+          "shap_value": 0.00979
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00885
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.631,
+          "shap_value": -0.00558
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00539
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.583,
+          "shap_value": -0.00436
+        }
+      ]
+    },
+    {
+      "company": "HSBC Holdings plc",
+      "symbol": "HSBA",
+      "sector": "Banks",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.28764,
+      "actual_value": 0.2948,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.83,
+          "shap_value": 0.10862
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.453,
+          "shap_value": 0.01937
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.808,
+          "shap_value": 0.0149
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.54,
+          "shap_value": -0.01484
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01319
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01242
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.51,
+          "shap_value": 0.00587
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00584
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.541,
+          "shap_value": -0.00445
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00338
+        }
+      ]
+    },
+    {
+      "company": "Lloyds Banking Group plc",
+      "symbol": "LLOY",
+      "sector": "Banks",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.13554,
+      "actual_value": 0.132,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.463,
+          "shap_value": -0.01809
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01615
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.401,
+          "shap_value": -0.01408
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.55,
+          "shap_value": 0.01067
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00994
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.516,
+          "shap_value": 0.00791
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.719,
+          "shap_value": -0.00577
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00556
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00514
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00443
+        }
+      ]
+    },
+    {
+      "company": "NatWest Group plc",
+      "symbol": "NWG",
+      "sector": "Banks",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.1825,
+      "actual_value": 0.1746,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.666,
+          "shap_value": 0.01839
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.669,
+          "shap_value": 0.01592
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.458,
+          "shap_value": -0.00953
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00928
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00763
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0067
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00556
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00374
+        },
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.481,
+          "shap_value": -0.00354
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00345
+        }
+      ]
+    },
+    {
+      "company": "Standard Chartered plc",
+      "symbol": "STAN",
+      "sector": "Banks",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.08306,
+      "actual_value": 0.0812,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.669,
+          "shap_value": -0.02264
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.622,
+          "shap_value": -0.01785
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01177
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01147
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.38,
+          "shap_value": -0.01137
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.618,
+          "shap_value": 0.01072
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01048
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.573,
+          "shap_value": 0.00945
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00843
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.68,
+          "shap_value": -0.00699
+        }
+      ]
+    },
+    {
+      "company": "Coca-Cola HBC AG",
+      "symbol": "CCH",
+      "sector": "Beverages",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.03853,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.735,
+          "shap_value": -0.02436
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01693
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01653
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01137
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01039
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00882
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00532
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00527
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00518
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.794,
+          "shap_value": -0.00505
+        }
+      ]
+    },
+    {
+      "company": "Diageo plc",
+      "symbol": "DGE",
+      "sector": "Beverages",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.02613,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.574,
+          "shap_value": -0.02996
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.567,
+          "shap_value": -0.02499
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.718,
+          "shap_value": -0.02239
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.557,
+          "shap_value": -0.02026
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.696,
+          "shap_value": 0.01132
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01124
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0067
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00555
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0046
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00445
+        }
+      ]
+    },
+    {
+      "company": "Mondi plc",
+      "symbol": "MNDI",
+      "sector": "Containers & packaging",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.02699,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.58,
+          "shap_value": -0.02761
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.458,
+          "shap_value": -0.0245
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.537,
+          "shap_value": -0.01839
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.675,
+          "shap_value": -0.01506
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.71,
+          "shap_value": 0.01451
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01113
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01099
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.634,
+          "shap_value": -0.00863
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00589
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00473
+        }
+      ]
+    },
+    {
+      "company": "SSE plc",
+      "symbol": "SSE",
+      "sector": "Electrical utilities & independent power producers",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.0039,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.679,
+          "shap_value": -0.03028
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.622,
+          "shap_value": -0.02354
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.523,
+          "shap_value": -0.02299
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.64,
+          "shap_value": -0.01432
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.494,
+          "shap_value": -0.0142
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.56,
+          "shap_value": -0.01103
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00784
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00772
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00617
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00452
+        }
+      ]
+    },
+    {
+      "company": "Halma plc",
+      "symbol": "HLMA",
+      "sector": "Electronic equipment & parts",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.04099,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.02054
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.647,
+          "shap_value": -0.0191
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01853
+        },
+        {
+          "factor": "Selling Practices & Product Labeling",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01375
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01215
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00933
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00776
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.428,
+          "shap_value": -0.00712
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00558
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00518
+        }
+      ]
+    },
+    {
+      "company": "3i Group Plc",
+      "symbol": "III",
+      "sector": "Financial services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.09124,
+      "actual_value": 0.0837,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.505,
+          "shap_value": -0.02238
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01244
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01103
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00939
+        },
+        {
+          "factor": "Selling Practices & Product Labeling",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00824
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00638
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.005
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00475
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00433
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00413
+        }
+      ]
+    },
+    {
+      "company": "M&G plc",
+      "symbol": "MNG",
+      "sector": "Financial services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.16137,
+      "actual_value": 0.1415,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01894
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0157
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.505,
+          "shap_value": 0.013
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01284
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.355,
+          "shap_value": 0.01275
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.735,
+          "shap_value": 0.00859
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00793
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00752
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.671,
+          "shap_value": -0.00729
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00706
+        }
+      ]
+    },
+    {
+      "company": "St James's Place Plc",
+      "symbol": "STJ",
+      "sector": "Financial services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.10708,
+      "actual_value": 0.1434,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.378,
+          "shap_value": -0.01956
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.0151
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01391
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01223
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0104
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00821
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00659
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.505,
+          "shap_value": 0.00649
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00649
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00514
+        }
+      ]
+    },
+    {
+      "company": "Marks & Spencer Group plc",
+      "symbol": "MKS",
+      "sector": "Food & drug retailing",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.10339,
+      "actual_value": 0.1153,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.537,
+          "shap_value": -0.01886
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.703,
+          "shap_value": 0.01824
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.612,
+          "shap_value": -0.01067
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.577,
+          "shap_value": -0.01061
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.585,
+          "shap_value": -0.00963
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00673
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0052
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00496
+        },
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.493,
+          "shap_value": -0.00403
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00344
+        }
+      ]
+    },
+    {
+      "company": "Sainsbury (J) plc",
+      "symbol": "SBRY",
+      "sector": "Food & drug retailing",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.08809,
+      "actual_value": 0.0781,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.713,
+          "shap_value": -0.0297
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.517,
+          "shap_value": -0.02046
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.582,
+          "shap_value": 0.01328
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.506,
+          "shap_value": -0.01249
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.517,
+          "shap_value": 0.0089
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00876
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00668
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.485,
+          "shap_value": -0.00627
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00544
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00518
+        }
+      ]
+    },
+    {
+      "company": "Tesco plc",
+      "symbol": "TSCO",
+      "sector": "Food & drug retailing",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.11894,
+      "actual_value": 0.1374,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01613
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.646,
+          "shap_value": 0.01389
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.495,
+          "shap_value": 0.01126
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.54,
+          "shap_value": -0.01055
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01042
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00632
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.49,
+          "shap_value": -0.00631
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00601
+        },
+        {
+          "factor": "Labor Practices",
+          "materiality_weight": 0.593,
+          "shap_value": -0.00418
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00412
+        }
+      ]
+    },
+    {
+      "company": "Associated British Foods plc",
+      "symbol": "ABF",
+      "sector": "Food & tobacco",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.00253,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.948,
+          "shap_value": -0.03948
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.606,
+          "shap_value": -0.02697
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01723
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01526
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01398
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01364
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.715,
+          "shap_value": 0.01055
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00855
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.0077
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.523,
+          "shap_value": -0.00468
+        }
+      ]
+    },
+    {
+      "company": "JD Sports Fashion plc",
+      "symbol": "JD",
+      "sector": "General retailers",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.08573,
+      "actual_value": 0.0683,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.396,
+          "shap_value": -0.02758
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.634,
+          "shap_value": -0.01828
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.582,
+          "shap_value": 0.01034
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01006
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00869
+        },
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.545,
+          "shap_value": -0.00581
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00507
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00503
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00491
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.652,
+          "shap_value": 0.00467
+        }
+      ]
+    },
+    {
+      "company": "Next plc",
+      "symbol": "NXT",
+      "sector": "General retailers",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.06201,
+      "actual_value": 0.0656,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.457,
+          "shap_value": -0.02136
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.684,
+          "shap_value": -0.01893
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01342
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.584,
+          "shap_value": -0.01072
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.578,
+          "shap_value": 0.00887
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00816
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.544,
+          "shap_value": -0.00699
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.586,
+          "shap_value": -0.00564
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00458
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00434
+        }
+      ]
+    },
+    {
+      "company": "Smith & Nephew plc",
+      "symbol": "SN",
+      "sector": "Health care equipment & supplies",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.01323,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.965,
+          "shap_value": -0.0387
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.505,
+          "shap_value": -0.02435
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.58,
+          "shap_value": -0.01921
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01534
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01311
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0092
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00752
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0058
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.905,
+          "shap_value": 0.0049
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00487
+        }
+      ]
+    },
+    {
+      "company": "Howden Joinery Group Plc",
+      "symbol": "HWDN",
+      "sector": "Homebuilding & construction supplies",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.00811,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.355,
+          "shap_value": -0.02772
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.84,
+          "shap_value": -0.02446
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.02023
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01667
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.505,
+          "shap_value": -0.0144
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.404,
+          "shap_value": -0.01207
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01085
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00788
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00513
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00494
+        }
+      ]
+    },
+    {
+      "company": "Barratt Redrow Plc",
+      "symbol": "BTRW",
+      "sector": "Household goods & home construction",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.2556,
+      "actual_value": 0.2886,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.832,
+          "shap_value": 0.03557
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.464,
+          "shap_value": 0.02702
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.0174
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.849,
+          "shap_value": 0.01478
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01263
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01251
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.463,
+          "shap_value": 0.0079
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00707
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00655
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00594
+        }
+      ]
+    },
+    {
+      "company": "Berkeley Group Holdings plc",
+      "symbol": "BKG",
+      "sector": "Household goods & home construction",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.1954,
+      "actual_value": 0.2165,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.02067
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01765
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.569,
+          "shap_value": 0.01495
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.0131
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01236
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.444,
+          "shap_value": 0.01104
+        },
+        {
+          "factor": "Labor Practices",
+          "materiality_weight": 0.505,
+          "shap_value": 0.0089
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00879
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.401,
+          "shap_value": 0.00596
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00514
+        }
+      ]
+    },
+    {
+      "company": "Persimmon plc",
+      "symbol": "PSN",
+      "sector": "Household goods & home construction",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.23329,
+      "actual_value": 0.2486,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.787,
+          "shap_value": 0.07835
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01017
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00935
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0074
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.421,
+          "shap_value": -0.00552
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00545
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00537
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00465
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00387
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00372
+        }
+      ]
+    },
+    {
+      "company": "Reckitt Benckiser Group Plc",
+      "symbol": "RKT",
+      "sector": "Household goods & home construction",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.16943,
+      "actual_value": 0.1891,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.801,
+          "shap_value": 0.05359
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.591,
+          "shap_value": 0.01684
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.585,
+          "shap_value": -0.01675
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01588
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01003
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0095
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.404,
+          "shap_value": 0.00868
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00815
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00593
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0053
+        }
+      ]
+    },
+    {
+      "company": "Admiral Group",
+      "symbol": "ADM",
+      "sector": "Insurance",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.01809,
+      "actual_value": 0.0083,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.953,
+          "shap_value": -0.0395
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.02097
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.397,
+          "shap_value": -0.01682
+        },
+        {
+          "factor": "Selling Practices & Product Labeling",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01529
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01418
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01098
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00871
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00774
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.802,
+          "shap_value": 0.0058
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00391
+        }
+      ]
+    },
+    {
+      "company": "Beazley plc",
+      "symbol": "BEZ",
+      "sector": "Insurance",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.02729,
+      "actual_value": 0.0075,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.594,
+          "shap_value": -0.02963
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.453,
+          "shap_value": -0.02182
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01495
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01366
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01154
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01109
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.356,
+          "shap_value": -0.01069
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00988
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0075
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00734
+        }
+      ]
+    },
+    {
+      "company": "Aviva Plc",
+      "symbol": "AV",
+      "sector": "Life insurance",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.21238,
+      "actual_value": 0.2019,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.594,
+          "shap_value": 0.03432
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.644,
+          "shap_value": 0.03183
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.477,
+          "shap_value": -0.01985
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.659,
+          "shap_value": 0.01243
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0091
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.591,
+          "shap_value": 0.00768
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.497,
+          "shap_value": -0.00651
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00585
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00489
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0048
+        }
+      ]
+    },
+    {
+      "company": "Legal & General Group plc",
+      "symbol": "LGEN",
+      "sector": "Life insurance",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.18112,
+      "actual_value": 0.1924,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.606,
+          "shap_value": 0.07788
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.545,
+          "shap_value": -0.02293
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.779,
+          "shap_value": 0.01903
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.881,
+          "shap_value": -0.01172
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.505,
+          "shap_value": -0.0087
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00828
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00759
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00664
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00621
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00496
+        }
+      ]
+    },
+    {
+      "company": "Phoenix Group Holdings Plc",
+      "symbol": "PHNX",
+      "sector": "Life insurance",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.21074,
+      "actual_value": 0.2087,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.58,
+          "shap_value": 0.02341
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.579,
+          "shap_value": 0.01424
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.658,
+          "shap_value": 0.01406
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01386
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00981
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.503,
+          "shap_value": 0.00808
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00777
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00691
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00648
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00358
+        }
+      ]
+    },
+    {
+      "company": "Prudential plc",
+      "symbol": "PRU",
+      "sector": "Life insurance",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.28919,
+      "actual_value": 0.3131,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.808,
+          "shap_value": 0.1154
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.633,
+          "shap_value": 0.0109
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01031
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00983
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.586,
+          "shap_value": -0.0074
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00698
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00528
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00513
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00331
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00301
+        }
+      ]
+    },
+    {
+      "company": "Auto Trader Group plc",
+      "symbol": "AUTO",
+      "sector": "Media",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.19814,
+      "actual_value": 0.1977,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.867,
+          "shap_value": 0.08225
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.59,
+          "shap_value": -0.01751
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.534,
+          "shap_value": 0.01288
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00965
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0087
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00723
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.509,
+          "shap_value": -0.00719
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.548,
+          "shap_value": -0.00545
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.536,
+          "shap_value": -0.00469
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00422
+        }
+      ]
+    },
+    {
+      "company": "Informa plc",
+      "symbol": "INF",
+      "sector": "Media",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.35536,
+      "actual_value": 0.392,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.656,
+          "shap_value": 0.05246
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.684,
+          "shap_value": 0.05202
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.537,
+          "shap_value": 0.02811
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.411,
+          "shap_value": 0.01286
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.572,
+          "shap_value": 0.01181
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01007
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.531,
+          "shap_value": 0.00941
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00938
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00732
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.647,
+          "shap_value": -0.00675
+        }
+      ]
+    },
+    {
+      "company": "Pearson plc",
+      "symbol": "PSON",
+      "sector": "Media",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.301,
+      "actual_value": 0.2965,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.787,
+          "shap_value": 0.10865
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.664,
+          "shap_value": 0.01036
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.764,
+          "shap_value": 0.00872
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00848
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.449,
+          "shap_value": 0.00792
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00657
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00548
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00524
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.421,
+          "shap_value": -0.00433
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00421
+        }
+      ]
+    },
+    {
+      "company": "RELX plc",
+      "symbol": "REL",
+      "sector": "Media",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.26872,
+      "actual_value": 0.259,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.873,
+          "shap_value": 0.11193
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00972
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.502,
+          "shap_value": -0.00931
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.465,
+          "shap_value": 0.00877
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00836
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00833
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00653
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00578
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00548
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00476
+        }
+      ]
+    },
+    {
+      "company": "Rightmove plc",
+      "symbol": "RMV",
+      "sector": "Media",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.2596,
+      "actual_value": 0.267,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.616,
+          "shap_value": 0.0771
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01476
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.355,
+          "shap_value": 0.01459
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01357
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01146
+        },
+        {
+          "factor": "Selling Practices & Product Labeling",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00673
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00633
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00543
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00524
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00487
+        }
+      ]
+    },
+    {
+      "company": "WPP plc",
+      "symbol": "WPP",
+      "sector": "Media",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.26886,
+      "actual_value": 0.2658,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.783,
+          "shap_value": 0.0936
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01187
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01124
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.898,
+          "shap_value": 0.00634
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.574,
+          "shap_value": 0.00502
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.37,
+          "shap_value": -0.00499
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00389
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0033
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.505,
+          "shap_value": -0.003
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00296
+        }
+      ]
+    },
+    {
+      "company": "Anglo American Plc",
+      "symbol": "AAL",
+      "sector": "Mining",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.09374,
+      "actual_value": 0.0926,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.724,
+          "shap_value": -0.0229
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.477,
+          "shap_value": -0.01796
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01102
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0091
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00859
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0074
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00549
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00475
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00461
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00427
+        }
+      ]
+    },
+    {
+      "company": "Antofagasta plc",
+      "symbol": "ANTO",
+      "sector": "Mining",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.15802,
+      "actual_value": 0.1546,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01855
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.618,
+          "shap_value": 0.01634
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01296
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00788
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00719
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00705
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00676
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00485
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.505,
+          "shap_value": 0.00468
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00441
+        }
+      ]
+    },
+    {
+      "company": "Endeavour Mining plc",
+      "symbol": "EDV",
+      "sector": "Mining",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.16715,
+      "actual_value": 0.1744,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.03009
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01941
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01264
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01082
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00843
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00784
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00731
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.752,
+          "shap_value": -0.00716
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.607,
+          "shap_value": 0.00629
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00502
+        }
+      ]
+    },
+    {
+      "company": "Fresnillo",
+      "symbol": "FRES",
+      "sector": "Mining",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.10764,
+      "actual_value": 0.1317,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.505,
+          "shap_value": -0.02303
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01521
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01182
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01174
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01053
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01047
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00953
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.784,
+          "shap_value": 0.00635
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00453
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00437
+        }
+      ]
+    },
+    {
+      "company": "Glencore plc",
+      "symbol": "GLEN",
+      "sector": "Mining",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.29946,
+      "actual_value": 0.3185,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.704,
+          "shap_value": 0.05616
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.688,
+          "shap_value": 0.0556
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.526,
+          "shap_value": 0.01258
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.634,
+          "shap_value": -0.01141
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00915
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00899
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.513,
+          "shap_value": 0.00778
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.453,
+          "shap_value": 0.00742
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00708
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00645
+        }
+      ]
+    },
+    {
+      "company": "Vodafone Group plc",
+      "symbol": "VOD",
+      "sector": "Mobile telecommunications",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.03435,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.585,
+          "shap_value": -0.02985
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.584,
+          "shap_value": -0.02764
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.517,
+          "shap_value": -0.02671
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.7,
+          "shap_value": 0.02604
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.61,
+          "shap_value": -0.02151
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.508,
+          "shap_value": -0.01524
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01245
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00513
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.442,
+          "shap_value": 0.00478
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00452
+        }
+      ]
+    },
+    {
+      "company": "Centrica plc",
+      "symbol": "CNA",
+      "sector": "Multiline utilities",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.17212,
+      "actual_value": 0.174,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.708,
+          "shap_value": 0.05721
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.534,
+          "shap_value": -0.02322
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.476,
+          "shap_value": -0.014
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.606,
+          "shap_value": -0.01218
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.57,
+          "shap_value": 0.00864
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00785
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00705
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00659
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00445
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0043
+        }
+      ]
+    },
+    {
+      "company": "National Grid",
+      "symbol": "NG",
+      "sector": "Multiline utilities",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.21165,
+      "actual_value": 0.2304,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.659,
+          "shap_value": 0.01959
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.523,
+          "shap_value": 0.01561
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01308
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01233
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.532,
+          "shap_value": 0.0112
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00994
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.574,
+          "shap_value": 0.00846
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00546
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.648,
+          "shap_value": 0.00475
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00352
+        }
+      ]
+    },
+    {
+      "company": "Severn Trent Plc",
+      "symbol": "SVT",
+      "sector": "Multiline utilities",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.14769,
+      "actual_value": 0.184,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.604,
+          "shap_value": 0.04481
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.549,
+          "shap_value": -0.01533
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01457
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00874
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00853
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00745
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00579
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00575
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00424
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0035
+        }
+      ]
+    },
+    {
+      "company": "United Utilities Group Plc",
+      "symbol": "UU.",
+      "sector": "Multiline utilities",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.12708,
+      "actual_value": 0.1291,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.501,
+          "shap_value": 0.01622
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01362
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.401,
+          "shap_value": -0.01317
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.657,
+          "shap_value": -0.01111
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.721,
+          "shap_value": 0.01088
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00993
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.518,
+          "shap_value": -0.0084
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.519,
+          "shap_value": -0.00715
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00558
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.697,
+          "shap_value": -0.00498
+        }
+      ]
+    },
+    {
+      "company": "BP Plc",
+      "symbol": "BP",
+      "sector": "Oil & gas producers",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.03955,
+      "actual_value": 0.0341,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.759,
+          "shap_value": -0.02962
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.6,
+          "shap_value": -0.02246
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.581,
+          "shap_value": -0.0168
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.515,
+          "shap_value": -0.01532
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.013
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.59,
+          "shap_value": 0.00973
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00593
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00507
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00482
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0047
+        }
+      ]
+    },
+    {
+      "company": "Shell plc",
+      "symbol": "SHEL",
+      "sector": "Oil & gas producers",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.04014,
+      "actual_value": 0.0324,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.582,
+          "shap_value": -0.02996
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.556,
+          "shap_value": -0.02962
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.645,
+          "shap_value": -0.01528
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.587,
+          "shap_value": -0.01006
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00803
+        },
+        {
+          "factor": "Labor Practices",
+          "materiality_weight": 0.511,
+          "shap_value": -0.0075
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00676
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.582,
+          "shap_value": 0.00667
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00498
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00496
+        }
+      ]
+    },
+    {
+      "company": "Burberry Group plc",
+      "symbol": "BRBY",
+      "sector": "Personal goods",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.05101,
+      "actual_value": 0.0378,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.573,
+          "shap_value": -0.02813
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.54,
+          "shap_value": -0.02475
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.509,
+          "shap_value": -0.02285
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01571
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.426,
+          "shap_value": -0.01481
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.577,
+          "shap_value": 0.0107
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.847,
+          "shap_value": 0.0066
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00606
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.678,
+          "shap_value": -0.00532
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00508
+        }
+      ]
+    },
+    {
+      "company": "Unilever plc",
+      "symbol": "ULVR",
+      "sector": "Personal goods",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.03861,
+      "actual_value": 0.0424,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.741,
+          "shap_value": -0.02507
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01972
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.535,
+          "shap_value": -0.01652
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01203
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.678,
+          "shap_value": -0.00985
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00982
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00925
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.522,
+          "shap_value": -0.0088
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00744
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.556,
+          "shap_value": 0.00735
+        }
+      ]
+    },
+    {
+      "company": "GSK plc",
+      "symbol": "GSK",
+      "sector": "Pharmaceuticals & biotechnology",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.08161,
+      "actual_value": 0.0485,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.661,
+          "shap_value": -0.02116
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01433
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01138
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.475,
+          "shap_value": -0.01094
+        },
+        {
+          "factor": "Labor Practices",
+          "materiality_weight": 0.52,
+          "shap_value": -0.01088
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00785
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00537
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0041
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.443,
+          "shap_value": -0.0038
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00376
+        }
+      ]
+    },
+    {
+      "company": "Haleon plc",
+      "symbol": "HLN",
+      "sector": "Pharmaceuticals & biotechnology",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.07146,
+      "actual_value": 0.0553,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.676,
+          "shap_value": -0.02591
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.603,
+          "shap_value": -0.01767
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.611,
+          "shap_value": -0.01366
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01198
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01071
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01066
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.538,
+          "shap_value": -0.00646
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00638
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00511
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00463
+        }
+      ]
+    },
+    {
+      "company": "Segro Plc",
+      "symbol": "SGRO",
+      "sector": "Real estate investment trusts",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.03964,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.669,
+          "shap_value": -0.02895
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.02042
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01861
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01776
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01637
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01344
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01306
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.401,
+          "shap_value": -0.01178
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00916
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00505
+        }
+      ]
+    },
+    {
+      "company": "Whitbread plc",
+      "symbol": "WTB",
+      "sector": "Retail hospitality",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.04041,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.505,
+          "shap_value": -0.02152
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.754,
+          "shap_value": -0.02095
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01922
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.384,
+          "shap_value": -0.01569
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01112
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01078
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.355,
+          "shap_value": -0.00812
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00457
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00425
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00412
+        }
+      ]
+    },
+    {
+      "company": "Kingfisher",
+      "symbol": "KGF",
+      "sector": "Retailers",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.01866,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.662,
+          "shap_value": -0.04014
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.61,
+          "shap_value": -0.02679
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.623,
+          "shap_value": -0.02395
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01177
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01011
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.444,
+          "shap_value": -0.00971
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.69,
+          "shap_value": 0.0095
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00876
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00738
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0058
+        }
+      ]
+    },
+    {
+      "company": "Sage Group plc",
+      "symbol": "SGE",
+      "sector": "Software & computer services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.02962,
+      "actual_value": 0.0,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.767,
+          "shap_value": -0.02251
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.02117
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01786
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01347
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01232
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01171
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01165
+        },
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.549,
+          "shap_value": -0.01001
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.505,
+          "shap_value": 0.00886
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00556
+        }
+      ]
+    },
+    {
+      "company": "Bunzl plc",
+      "symbol": "BNZL",
+      "sector": "Support services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.23204,
+      "actual_value": 0.2569,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.827,
+          "shap_value": 0.02488
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.708,
+          "shap_value": 0.0231
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01555
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.506,
+          "shap_value": 0.01278
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01229
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.66,
+          "shap_value": 0.00847
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.428,
+          "shap_value": 0.0074
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.38,
+          "shap_value": 0.00682
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00592
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00559
+        }
+      ]
+    },
+    {
+      "company": "Compass Group plc",
+      "symbol": "CPG",
+      "sector": "Support services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.35461,
+      "actual_value": 0.3755,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.597,
+          "shap_value": 0.08638
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.634,
+          "shap_value": 0.04995
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.712,
+          "shap_value": 0.01551
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.654,
+          "shap_value": 0.01131
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00799
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00796
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00723
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.516,
+          "shap_value": 0.0069
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00496
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00375
+        }
+      ]
+    },
+    {
+      "company": "DCC plc",
+      "symbol": "DCC",
+      "sector": "Support services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.20007,
+      "actual_value": 0.2461,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.788,
+          "shap_value": 0.02531
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01832
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01724
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01341
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.355,
+          "shap_value": 0.01292
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.355,
+          "shap_value": 0.01039
+        },
+        {
+          "factor": "Labor Practices",
+          "materiality_weight": 0.505,
+          "shap_value": 0.0089
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00865
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00681
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00679
+        }
+      ]
+    },
+    {
+      "company": "Experian Plc",
+      "symbol": "EXPN",
+      "sector": "Support services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.20392,
+      "actual_value": 0.2057,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.759,
+          "shap_value": 0.06162
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.659,
+          "shap_value": -0.02944
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.676,
+          "shap_value": 0.01185
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0063
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00566
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.56,
+          "shap_value": 0.00552
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.355,
+          "shap_value": 0.00545
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00414
+        },
+        {
+          "factor": "Physical Impacts of Climate Change",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00384
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00367
+        }
+      ]
+    },
+    {
+      "company": "Intertek Group plc",
+      "symbol": "ITRK",
+      "sector": "Support services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.22295,
+      "actual_value": 0.243,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.492,
+          "shap_value": 0.02079
+        },
+        {
+          "factor": "Water & Hazardous Materials",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01549
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.676,
+          "shap_value": 0.01507
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01181
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.552,
+          "shap_value": 0.01023
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.538,
+          "shap_value": 0.00945
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00868
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00672
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00619
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.792,
+          "shap_value": 0.00505
+        }
+      ]
+    },
+    {
+      "company": "Rentokil Initial Plc",
+      "symbol": "RTO",
+      "sector": "Support services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.45361,
+      "actual_value": 0.4855,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.983,
+          "shap_value": 0.14773
+        },
+        {
+          "factor": "Waste & Wastewater Management",
+          "materiality_weight": 0.793,
+          "shap_value": 0.04804
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.02009
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.355,
+          "shap_value": 0.01962
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01789
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.36,
+          "shap_value": 0.01787
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.505,
+          "shap_value": 0.0091
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00806
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00678
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00616
+        }
+      ]
+    },
+    {
+      "company": "Airtel Africa plc",
+      "symbol": "AAF",
+      "sector": "Telecommunications services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.14237,
+      "actual_value": 0.1363,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.492,
+          "shap_value": -0.02098
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01566
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.409,
+          "shap_value": -0.01242
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.699,
+          "shap_value": 0.01118
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00794
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.61,
+          "shap_value": 0.00747
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00488
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00435
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00319
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00295
+        }
+      ]
+    },
+    {
+      "company": "BT Group plc",
+      "symbol": "BT.A",
+      "sector": "Telecommunications services",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.13824,
+      "actual_value": 0.1407,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.607,
+          "shap_value": -0.01881
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.601,
+          "shap_value": -0.01824
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.559,
+          "shap_value": 0.00999
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00891
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.717,
+          "shap_value": 0.0088
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.584,
+          "shap_value": 0.00867
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.553,
+          "shap_value": -0.00446
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00413
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00408
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.505,
+          "shap_value": -0.00354
+        }
+      ]
+    },
+    {
+      "company": "British American Tobacco plc",
+      "symbol": "BATS",
+      "sector": "Tobacco",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.13844,
+      "actual_value": 0.1425,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.555,
+          "shap_value": -0.01642
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01137
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.609,
+          "shap_value": 0.01086
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00923
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.586,
+          "shap_value": 0.00904
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.559,
+          "shap_value": -0.00856
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00827
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00649
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00605
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.741,
+          "shap_value": -0.00534
+        }
+      ]
+    },
+    {
+      "company": "Imperial Brands Group",
+      "symbol": "IMB",
+      "sector": "Tobacco",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.15828,
+      "actual_value": 0.137,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.867,
+          "shap_value": 0.02788
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01558
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.355,
+          "shap_value": -0.01447
+        },
+        {
+          "factor": "Data Security",
+          "materiality_weight": 0.505,
+          "shap_value": -0.01289
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01165
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.814,
+          "shap_value": 0.01131
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00905
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00788
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00394
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00335
+        }
+      ]
+    },
+    {
+      "company": "easyJet plc",
+      "symbol": "EZJ",
+      "sector": "Travel & leisure",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.11703,
+      "actual_value": 0.119,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.505,
+          "shap_value": -0.02279
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.608,
+          "shap_value": -0.01515
+        },
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.642,
+          "shap_value": -0.01446
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.557,
+          "shap_value": 0.01197
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00517
+        },
+        {
+          "factor": "Materials Sourcing & Efficiency",
+          "materiality_weight": 0.443,
+          "shap_value": 0.00515
+        },
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00499
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0047
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00469
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00389
+        }
+      ]
+    },
+    {
+      "company": "Entain plc",
+      "symbol": "ENT",
+      "sector": "Travel & leisure",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.25461,
+      "actual_value": 0.2636,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Ecological Impacts",
+          "materiality_weight": 0.863,
+          "shap_value": 0.0516
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.65,
+          "shap_value": 0.02248
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.529,
+          "shap_value": 0.02006
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01261
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.0,
+          "shap_value": 0.01027
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00721
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00558
+        },
+        {
+          "factor": "Human Rights & Community Relations",
+          "materiality_weight": 0.558,
+          "shap_value": 0.00471
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00439
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00422
+        }
+      ]
+    },
+    {
+      "company": "InterContinental Hotels Group plc",
+      "symbol": "IHG",
+      "sector": "Travel & leisure",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.14839,
+      "actual_value": 0.1496,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Product Quality & Safety",
+          "materiality_weight": 0.649,
+          "shap_value": 0.02999
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.571,
+          "shap_value": -0.0204
+        },
+        {
+          "factor": "Supply Chain Management",
+          "materiality_weight": 0.738,
+          "shap_value": 0.01333
+        },
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01199
+        },
+        {
+          "factor": "Employee Engagement",
+          "materiality_weight": 0.466,
+          "shap_value": 0.00882
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00733
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00709
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00559
+        },
+        {
+          "factor": "Employee Health & Safety",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00468
+        },
+        {
+          "factor": "GHG Emissions",
+          "materiality_weight": 0.552,
+          "shap_value": -0.00437
+        }
+      ]
+    },
+    {
+      "company": "International Consolidated Airlines Group SA",
+      "symbol": "IAG",
+      "sector": "Travel & leisure",
+      "target_type": "distinctiveness_index",
+      "predicted_value": 0.14495,
+      "actual_value": 0.1493,
+      "base_value": 0.14653,
+      "shap_contributions": [
+        {
+          "factor": "Customer Privacy",
+          "materiality_weight": 0.0,
+          "shap_value": -0.01714
+        },
+        {
+          "factor": "Customer Welfare",
+          "materiality_weight": 0.505,
+          "shap_value": 0.01367
+        },
+        {
+          "factor": "Product Design & Lifecycle Management",
+          "materiality_weight": 0.662,
+          "shap_value": 0.01332
+        },
+        {
+          "factor": "Business Model Resilience",
+          "materiality_weight": 0.634,
+          "shap_value": -0.01134
+        },
+        {
+          "factor": "Energy Management",
+          "materiality_weight": 0.0,
+          "shap_value": -0.0084
+        },
+        {
+          "factor": "Access & Affordability",
+          "materiality_weight": 0.764,
+          "shap_value": 0.00816
+        },
+        {
+          "factor": "Air Quality",
+          "materiality_weight": 0.0,
+          "shap_value": 0.00626
+        },
+        {
+          "factor": "Business Ethics",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00512
+        },
+        {
+          "factor": "Management of the Legal & Regulatory Environment",
+          "materiality_weight": 0.0,
+          "shap_value": -0.00465
+        },
+        {
+          "factor": "Systemic Risk Management",
+          "materiality_weight": 0.0,
+          "shap_value": 0.0041
+        }
+      ]
+    }
+  ]
+}

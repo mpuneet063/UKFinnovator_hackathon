@@ -1,0 +1,49 @@
+[
+  {
+    "company": "Glencore plc",
+    "symbol": "GLEN",
+    "sector": "Mining",
+    "factor": "Human Rights & Community Relations",
+    "materiality_weight": 0.704,
+    "gap": 0.156,
+    "peer_group_average": 0.548,
+    "evidence_summary": "Dutch pension fund ABP divested its roughly EUR 57m stake in Glencore in 2024, citing unresolved human rights risks including child labour concerns in DR Congo cobalt supply chains, community conflicts, and pollution. Glencore's 2024 sustainability report states it recorded no major human rights incidents, but prior bribery convictions and resulting investor lawsuits suggest continued elevated risk in this area.",
+    "evidence_direction": "negative",
+    "sources": [
+      "https://www.ipe.com/abp-exits-glencore-investment-over-human-rights-concerns/10055740.article",
+      "https://www.glencore.com/.rest/api/v1/documents/static/72cdaa4f-71c1-4901-bb31-8819f38dbfcb/GLEN-2024-Sustainability-Report.pdf"
+    ],
+    "confidence": "high"
+  },
+  {
+    "company": "Glencore plc",
+    "symbol": "GLEN",
+    "sector": "Mining",
+    "factor": "Ecological Impacts",
+    "materiality_weight": 0.688,
+    "gap": 0.178,
+    "peer_group_average": 0.51,
+    "evidence_summary": "Glencore reports annual emissions of over 433 million tonnes of CO2 equivalent and generates approximately 2.31 billion tonnes of waste, with only around 1% historically managed sustainably. Of roughly 2 million hectares of disturbed land, only about 37,000 hectares had been rehabilitated as of 2021, with over 90,000 hectares still needing restoration.",
+    "evidence_direction": "negative",
+    "sources": [
+      "https://www.greendigest.co/p/evaluating-companys-impact-case-glencore"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "company": "Anglo American Plc",
+    "symbol": "AAL",
+    "sector": "Mining",
+    "factor": "Business Model Resilience",
+    "materiality_weight": 0.73,
+    "gap": -0.027,
+    "peer_group_average": 0.757,
+    "evidence_summary": "Anglo American is mid-way through a major portfolio transformation, including the sale of its steelmaking coal business to Peabody Energy, the planned demerger of Anglo American Platinum, and divestment of De Beers, explicitly framed by the company as creating a more resilient, focused business. MSCI rates the company 'AA' (Leader) on ESG.",
+    "evidence_direction": "positive",
+    "sources": [
+      "https://www.angloamerican.com/investors/annual-reporting",
+      "https://knowesg.com/esg-ratings/anglo-american-plc"
+    ],
+    "confidence": "high"
+  }
+]
